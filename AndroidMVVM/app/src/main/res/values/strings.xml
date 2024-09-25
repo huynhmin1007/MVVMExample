@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AndroidMVVM</string>
+    <string name="empty"></string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="action_sign_in">Đăng nhập</string>
+    <string name="header_sign_in">Đăng nhập</string>
+    <string name="invalid_email">Email không hợp lệ</string>
+    <string name="invalid_password">Mật khẩu phải nhiều hơn 5 ký tự</string>
+    <string name="login_failed">Không tìm thấy tài khoản phù hợp!</string>
+</resources>

@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.AndroidMVVM" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.AndroidMVVM" parent="Base.Theme.AndroidMVVM" />
+
+    <style name="TextInputLayout.Outline" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+    
+    <style name="Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="cornerRadius">10dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textSize">@dimen/text_subtitle</item>
+        <item name="iconTint">@null</item>
+        <item name="iconSize">24dp</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+
+    <style name="Button.Filled" parent="Widget.Material3.Button">
+        <item name="cornerRadius">10dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textSize">@dimen/text_subtitle</item>
+    </style>
+</resources>
